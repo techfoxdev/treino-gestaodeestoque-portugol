@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
 
-  //Declara??o de Vari?veis  
+  //Declaração de Variáveis  
   cadeia nomeProduto
   inteiro quantidadeEstoque, estoqueMinimo, quantidadeVenda
   real precoUnitario
 
-  //Passo 1: Leitura e Inicia??o de Dados
+  //Passo 1: Leitura e Iniciação de Dados
   escreva("--- CADASTRO DE PRODUTO ---\n")
 
   escreva("Nome do Produto:\n")
@@ -40,7 +40,7 @@ programa {
      escreva("\n[ERRO] Estoque insulficiewnte para realizar venda\n")
 
   }
-  //Passo 3: Exibição do Saldo e Verifica??o de Reposição
+  //Passo 3: Exibição do Saldo e Verificação de Reposição
   escreva("\n--- STATUS DE ESTOQUE ---\n")
 
   escreva("Produto: ", nomeProduto, "\n")
@@ -48,7 +48,7 @@ programa {
 
   se (quantidadeEstoque <= estoqueMinimo)
  { 
-     escreva("ALERTA: estoque esta baixo ou no imite minьmo (", estoqueMinimo, "unidades). Faca o pedido para reposiсao!")
+     escreva("ALERTA: estoque esta baixo ou no imite minimo (", estoqueMinimo, "unidades). Faca o pedido para reposiсao!")
 
   } 
   senao
